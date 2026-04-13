@@ -32,7 +32,7 @@
 ## 📋 实施阶段
 
 ### Phase 1: 项目脚手架 (本周)
-- [ ] **1.1** 初始化项目目录结构
+- [x] **1.1** 初始化项目目录结构
 - [ ] **1.2** 配置 Docker Compose (Milvus, Redis, SQLite/PostgreSQL, MinIO)
 - [ ] **1.3** 搭建 Next.js 前端项目
 - [ ] **1.4** 搭建 FastAPI 后端项目
