@@ -1,1 +1,299 @@
-Nothing should be ignored based on the provided file changes. The only modified file is `todo.md`, which is a markdown source file and should not be ignored.
+volumes
+.zread
+# ========== 操作系统生成文件 ==========
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+desktop.ini
+
+# ========== IDE / 编辑器配置文件 ==========
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ IDEA / WebStorm / PyCharm / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+.classpath
+.project
+.settings/
+bin/
+gen/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.un~
+*.orig
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.lock
+*.class
+
+# ========== 依赖和构建目录 ==========
+# Node.js / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json   # 可选，建议提交锁文件但很多人忽略
+yarn.lock           # 可选
+.pnpm-debug.log
+.pnpm-store/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Java / Maven / Gradle
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+gradle-app.setting
+!gradle-wrapper.jar
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+
+# Go
+*.exe
+*.exe~
+*.test
+*.out
+*.prof
+*.mod   # 可选，建议提交 go.mod
+*.sum   # 可选
+/vendor/
+
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock  # 可选，库项目忽略，应用项目提交
+
+# C / C++
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.idb
+Debug/
+Release/
+*.user
+*.suo
+
+# ========== 框架和工具 ==========
+# React / Vue / Angular
+/build
+/dist
+/tmp
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.output/
+.storybook-out/
+
+# Vue
+*.log
+*.temp
+**/dist/
+**/dist-ssr/
+**/*.local
+
+# React Native
+.buckd/
+*.keystore
+!debug.keystore
+buck-out/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.build/
+*.lock
+app.*.symbols
+android/key.properties
+
+# Ruby / Rails
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp
+db/*.sqlite3
+db/*.sqlite3-*
+log/*
+!log/.keep
+*.log
+*.bak
+Gemfile.lock
+vendor/bundle/
+
+# PHP
+composer.phar
+/vendor/
+composer.lock   # 可选
+.env
+.phpunit.result.cache
+*.cache
+
+# ========== 环境变量和密钥 ==========
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+*.key
+*.pem
+*.crt
+*.p12
+secrets.yml
+config/secrets.yml
+
+# ========== 日志和临时文件 ==========
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.gz
+*.tmp
+*.temp
+logs/
+*.sess
+*.session
+*.cache
+
+# ========== 测试和覆盖率 ==========
+/coverage
+.nyc_output/
+.grunt/
+.lcov
+*.lcov
+*.lcov.info
+/test-results/
+/screenshots/
+/testem.log
+
+# ========== Docker ==========
+Dockerfile
+docker-compose*.yml
+.dockerignore
+*.tar.gz
+*.tar
+*.tgz
+*.image
+
+# ========== Terraform ==========
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# ========== 其他常见 ==========
+*.orig
+*.rej
+*.bak
+*.old
+*.sql
+*.sqlite
+*.db
+*.db-journal
+*.swp
+*.swo
+*.DS_Store
+*.vscode
+*.code-workspace
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+*.gz
+*.tgz
+*.zip
+*.rar
+*.7z
